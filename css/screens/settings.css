@@ -1,0 +1,40 @@
+.settings__setting {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size:20px;
+    display: flex;
+    align-items: center;
+    color:rgba(0, 0, 0, 0.8);
+    justify-content: space-between;
+}
+
+
+
+.settings__setting i {
+    margin-right: 15px;
+    font-size: 22px;
+    opacity: 0.8;
+}
+
+.settings__setting-column-logout {
+    color:rgba(158, 139, 16, 0.8);
+    font-size:17px;
+
+}
+
+
+
+.settings__setting-column:last-child {
+    opacity: 0.7;
+    font-size: 17px;
+}
+
+
+
+.settings__setting-column-version {
+    margin-bottom: 25px;
+}
+
+.settings__setting-column-privacy {
+    padding-top :50px;
+}
