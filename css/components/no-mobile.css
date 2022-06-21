@@ -1,0 +1,24 @@
+#no-mobile {
+    position: absolute;
+    background-color: var(--yellow);
+    z-index: 99;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    width:100vw;
+    height: 100vh;
+}
+
+@media (max-width:645px) {
+    #no-mobile {
+        display:none;
+    }
+}
+
+@media (orientaion:landscape) {
+    #no-mobile {
+        display:none;
+    }
+}
